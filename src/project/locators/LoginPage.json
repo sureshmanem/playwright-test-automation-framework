@@ -1,0 +1,10 @@
+{
+    "UsernameInput": "#username",
+    "PasswordInput": "#password",
+    "LoginButton": "button[type='submit']",
+    "FlashMessage": "#flash",
+    "HeaderTitle": "h2",
+    "LoginForm": "#login",
+    "LogoutButton": "a[href='/logout']",
+    "SubHeader": ".subheader"
+}

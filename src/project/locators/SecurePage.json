@@ -1,0 +1,6 @@
+{
+    "LogoutButton": "a[href='/logout']",
+    "FlashMessage": "#flash",
+    "HeaderTitle": "h4",
+    "SubHeader": ".subheader"
+}

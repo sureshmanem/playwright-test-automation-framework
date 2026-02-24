@@ -1,0 +1,32 @@
+{
+    "name": "playwright-bdd-test-automation",
+    "version": "1.0.0",
+    "description": "Generic BDD Test Automation Framework using Playwright and playwright-bdd",
+    "main": "dist/index.js",
+    "scripts": {
+        "bddgen": "bddgen",
+        "test": "npm run bddgen && npx playwright test",
+        "test:headed": "npm run bddgen && npx playwright test --headed",
+        "test:debug": "npm run bddgen && npx playwright test --debug",
+        "test:ui": "npm run bddgen && npx playwright test --ui",
+        "report": "npx playwright show-report",
+        "lint": "eslint src/**/*.ts",
+        "clean": "rm -rf .features-gen test-results playwright-report"
+    },
+    "keywords": [
+        "playwright",
+        "bdd",
+        "automation",
+        "testing",
+        "gherkin",
+        "cucumber"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@playwright/test": "^1.50.0",
+        "playwright-bdd": "^8.0.0",
+        "typescript": "^5.3.0",
+        "@types/node": "^20.0.0"
+    }
+}
